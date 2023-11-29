@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+    
+  }
+  
+header{
+    border-radius: 5px;
+    display: block;
+    background-color: #464898;
+    margin: 0;
+}
+
+header h1{  
+    text-align: left;
+    font-size: 100px;
+    
+}
+
+header div{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+}
+
+header div a{
+    text-decoration: none;
+    color: white;
+}
