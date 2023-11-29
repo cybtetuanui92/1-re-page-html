@@ -8,22 +8,34 @@ body {
   
 header{
     border-radius: 5px;
-    display: block;
-    background-color: #464898;
-    margin: 0;
+    background-color: #464898;   
+    padding-left: 5px;
 }
-
-header h1{  
-    text-align: left;
+.headbar{
+    color: white;
     font-size: 100px;
-    
+    margin: auto;
+   /* color: white;
+    font-size: 100px;
+    */
+}
+header h1{  
+
+    text-align: left;
+   /* font-size: 100px;
+    margin: auto;
+    padding: 34px;
+    */
 }
 
 header div{
-    display: flex;
+    color: white;
+    text-decoration: none;
+    /*display: flex;
     justify-content: flex-end;
     color: white;
     text-decoration: none;
+    */
 }
 
 header div a{
