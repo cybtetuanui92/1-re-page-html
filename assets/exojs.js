@@ -50,27 +50,27 @@ else {
 */
 
 
-console.log('Hello from assets/js/main.js');
+//console.log('Hello from assets/js/main.js');
 // calculette JS
 // Veuilles suivre les instructions dans le fichier instructions.md
 
-document.getElementById('calculate_button').addEventListener('click', event => {
+/*document.getElementById('calculate_button').addEventListener('click', event => {
     event.preventDefault();
     console.log('click')
 
     let number1 = parseInt(document.getElementById('number1').value);
     let number2 = parseInt(document.getElementById('number2').value);
     let operator = document.getElementById('operator').value;
-    let result = 0;
+    let result = 0;1234321
 
     if (operator === 'addition') {
         result = number1 + number2
     } else if (operator === 'soustraction') {
         result = number1 - number2
-    } else if (operator === 'multiplication') {
+    } else if (operator === 'multiplication') {ùùù
         result = number1 * number2 
     } else {
         result = number1 / number2
     }
     document.getElementById('result').innerHTML = result
-})
+})*/211121212121211122221+
