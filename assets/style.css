@@ -1,7 +1,6 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    font-size: 1em;
     background-color: #1f2039;
     
   }
@@ -10,23 +9,47 @@ header{
     border-radius: 5px;
     background-color: #464898;   
     padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
 }
-.headbar{
+
+h1{
+    font-size: 70px;
+}
+/*.headbar{
     color: white;
     font-size: 100px;
     margin: auto;
    /* color: white;
     font-size: 100px;
     */
-}
-header h1{  
 
-    text-align: left;
+header h1{  
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+   /* font-size: 70px;*/
+    
    /* font-size: 100px;
     margin: auto;
     padding: 34px;
     */
 }
+header h4{
+    color: white;
+    
+}
+aside{
+    height: fit-content;
+    padding: 5px;
+}
+
+header aside a{
+    text-decoration: none;
+    color: white;
+}
+
 
 header div{
     color: white;
@@ -38,7 +61,7 @@ header div{
     */
 }
 
-header div a{
-    text-decoration: none;
-    color: white;
+
+.imgprofil{
+    border-radius:49% 51% 46% 54% / 30% 26% 74% 70%  ;
 }
