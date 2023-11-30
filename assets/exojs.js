@@ -73,4 +73,25 @@ else {
         result = number1 / number2
     }
     document.getElementById('result').innerHTML = result
-})*/211121212121211122221+
+})*/
+
+
+/*si le reste de la division de a par b vaut 0, alors a est un multiple de b !*/ 
+
+
+/*function fizzBuzz (number) {
+   if (number % 3 === 0 && number % 5 === 0 ){
+     return "FIZZBUZZ"
+       console.log(fizzBuzz(15))
+   }
+   else if (number % 3 === 0) {
+    return "FIZZ"
+       console.log(fizzBuzz(3))
+   }
+   else if (number % 5 === 0){
+    return "BUZZ"
+       
+   }
+}
+console.log(fizzBuzz(5))
+*/

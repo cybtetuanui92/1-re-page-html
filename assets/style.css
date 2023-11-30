@@ -1,67 +1,83 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    background-color: #1f2039;
+    background: linear-gradient(#e31212, #2c2e6e);
     
   }
   
 header{
     border-radius: 5px;
-    background-color: #464898;   
+    box-shadow: inset;
+    background: linear-gradient(#d70b0b, #333587);
     padding-left: 5px;
-    display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
-h1{
-    font-size: 70px;
-}
-/*.headbar{
-    color: white;
-    font-size: 100px;
-    margin: auto;
-   /* color: white;
-    font-size: 100px;
-    */
 
 header h1{  
+    font-size: 70px;
     color: white;
     padding-left: 5px;
     padding-top: 5px;
     font-weight: bold;
-   /* font-size: 70px;*/
-    
-   /* font-size: 100px;
-    margin: auto;
-    padding: 34px;
-    */
 }
 header h4{
     color: white;
+    font-weight: bold;
+    width: max-content;
+    font-size: large;
     
 }
 aside{
-    height: fit-content;
-    padding: 5px;
+    margin: auto;
+   /* height: fit-content;
+    padding-bottom: 16px;
+    padding-left: 70px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    */
 }
 
-header aside a{
-    text-decoration: none;
+nav {
+    padding-left: 41px;
+}
+
+.cta{
+    border: #8b3a58 solid 0px;
+    background: linear-gradient(#56299d, #ba8787);
+    padding: 3px 7px 4px 8px;
+    border-radius: 5px;
     color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
+.cta:hover {
+    text-decoration: underline;
+  }
+
+header.aside.nav{ 
+    padding: 0%;
+}
 
 header div{
     color: white;
     text-decoration: none;
-    /*display: flex;
-    justify-content: flex-end;
-    color: white;
-    text-decoration: none;
-    */
+
 }
 
-
 .imgprofil{
-    border-radius:49% 51% 46% 54% / 30% 26% 74% 70%  ;
+    border-radius: 53% 47% 45% 55% / 26% 28% 72% 74%;
+    padding-bottom: 22px;
+    padding-left: 48px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
