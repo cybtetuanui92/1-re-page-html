@@ -2,59 +2,50 @@
 body {
     font-family: 'Manrope', sans-serif;
     background: linear-gradient(#e31212, #2c2e6e);
-    
-
+    margin: 0px;
   }
   
-  /* header style grand écran */
 header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     border-radius: 5px;
     background: linear-gradient(#9d2929, #2c2542);
-  
+    padding-left: 5px;
+   
 }
 
 header h1{  
-    font-size: 75px;
+    font-size: 70px;
     color: white;
-    width: 33%;
+    padding-left: 5px;
+    padding-top: 5px;
     font-weight: bold;
 }
 header h4{
     color: white;
     font-weight: bold;
     font-size: large;
-    width: 35%;
-    text-align: left;
-    text-transform: uppercase;
-    margin-top: 17%;
+    
 }
-
-header div{
+aside{
+    margin: auto;
+   /** height: fit-content;
+    padding-bottom: 16px;
+    padding-left: 70px;
+    padding-right: 30px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    **/
 }
 
-.imgprofil{
-    border-radius: 53% 47% 45% 55% / 26% 28% 72% 74%;
-    width: fit-content;
-    padding-top: 10px ;
-}
-
-nav{
-    padding-top: 14px;
-    padding-left: 14px;
+nav {
+    padding-left: 41px;
 }
 
 .cta{
-    margin: 5px;
     border: #8b3a58 solid 0px;
     background: linear-gradient(#56299d, #ba8787);
     padding: 3px 7px 4px 8px;
-    border-radius: 3px;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -64,17 +55,22 @@ nav{
     text-decoration: underline;
   }
 
-/* fin header style */
-
-
-
-/* début main */
-
-/* madescription */
-
-h2{
-    margin-left: 25px;
+header.aside.nav{ 
+    padding: 0%;
 }
+
+header div{
+    color: white;
+    text-decoration: none;
+
+}
+
+.imgprofil{
+    border-radius: 53% 47% 45% 55% / 26% 28% 72% 74%;
+    padding-bottom: 22px;
+    padding-left: 48px;
+}
+
 ul {
     display: flex;
     flex-flow: row wrap;
@@ -85,7 +81,6 @@ li{
     font-size: xx-large;
 }
 
-/* footer style */
 footer{
     display: flex;
     justify-content: space-between;
